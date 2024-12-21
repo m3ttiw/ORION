@@ -8,3 +8,7 @@ This project aim to produce my personal ai assistant for everyday task
 - human-like voice response
 - humor level: user can set the humor level of ORION responses (like TARS in interstellar)
 - humbling when searching (humm... let me see...) and generating (well.., in short terms...) the response
+
+
+## Some ideas:
+- ORION could "call" other assistants for feature specific task (like NOVA(Navigational Organizer and Virtual Assistant) for navigation, ZEUS(Zero-latency Electronic User Support) for something else...)
