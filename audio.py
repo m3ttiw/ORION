@@ -34,7 +34,7 @@ def generate_silence(duration_ms, sample_rate=24000, sample_width=2, channels=1)
 
     
 def say(text):
-    print('[DEBUG] Preparing to speak:', text)
+    #print('[DEBUG] Preparing to speak:', text)
 
     # Initialize PyAudio
     p = pyaudio.PyAudio()
