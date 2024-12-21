@@ -1,5 +1,6 @@
 import os
 import openai
+from dotenv import load_dotenv
 import time
 import speech_recognition as sr
 import pyttsx3
@@ -12,13 +13,15 @@ language = 'en'
 # import matplotlib.pyplot as plt
 # ^ matplotlib is great for visualising data and for testing purposes but usually not needed for production
 openai.api_key=''
+load_dotenv()
+model = 'gpt-3.5-turbo'
 model = 'gpt-4'
 # Set up the speech recognition and text-to-speech engines
 r = sr.Recognizer()
 engine = pyttsx3.init("dummy")
 voice = engine.getProperty('voices')[1]
 engine.setProperty('voice', voice.id)
-name = "Mattia"
+name = "YOUR NAME HERE"
 greetings = [f"whats up master {name}",
              "yeah?",
              "Well, hello there, Master of Puns and Jokes - how's it going today?",
